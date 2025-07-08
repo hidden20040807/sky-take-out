@@ -36,7 +36,9 @@ public class  WebMvcConfiguration extends WebMvcConfigurationSupport {
                 .addPathPatterns("/admin/**")
                 .excludePathPatterns("/admin/employee/login");
     }
-//666
+
+
+
     /**
      * 通过knife4j生成接口文档
      * @return
